@@ -26,3 +26,14 @@ memory before sending to the vendor because the vehicle did not have a connectio
 server (Y=store and forward; N=not a store and forward trip)  
 
 • trip_duration - (target) duration of the trip in seconds
+
+We performed Data exploration is the first step in data analysis involving the use of data visualization tools and statistical techniques to uncover data set characteristics and initial patterns using  data-exploration techniques to visually explore data sets, look for similarities, patterns and outliers and to identify the relationships between different variables. 
+Methods : 
+
+From the EDA we performed in the previous assignment we have the following observations:
+id can be removed from dataset because it does not contribute to
+'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude', 'trip_duration' are highly skewed
+The same variables have extreme outliers that should be removed
+We propose to normlaize data
+Remove highly corellated variables
+Cretae new features duration the idfference between start trip and end trip
