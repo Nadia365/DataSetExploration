@@ -31,9 +31,5 @@ We performed Data exploration is the first step in data analysis involving the u
 Methods : 
 
 From the EDA we performed in the previous assignment we have the following observations:
-id can be removed from dataset because it does not contribute to
-'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude', 'trip_duration' are highly skewed
-The same variables have extreme outliers that should be removed
-We propose to normlaize data
-Remove highly corellated variables
-Cretae new features duration the idfference between start trip and end trip
+id can be removed from dataset because it does not contribute to our model , 'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude', 'trip_duration' are highly skewed, The same variables have extreme outliers that should be removed
+We propose to normalize data, Remove highly corellated variables, Cretae new features duration the idfference between start trip and end trip
