@@ -1,7 +1,7 @@
 # DataSetExploration 
 The aim of this assignment is just to explore the dataset and generate insights from it. 
 
-Here is the description of all the variables / features available in the dataset which will help you to perform EDA: 
+Here is the description of all the variables / features available in the dataset: 
 
 • id - a unique identifier for each trip
 
